@@ -1,1 +1,3 @@
 防災のつどぴhp用です
+
+githubpages使うためです
