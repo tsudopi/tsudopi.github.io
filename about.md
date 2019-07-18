@@ -4,12 +4,12 @@ layout: page
 title: "About"
 crawlertitle: "About"
 permalink: /about/
-summary: "About this blog"
+summary: "About this page"
 active: about
 ---
 和歌山大学クリエのプロジェクト”防災のつどぴ”ホームページです。
 
-過去に行ったことや現在やっていることなど、情報発信していきます。
+過去にやったことや現在やっていることなど、情報発信していきます。
 
 Twitter： [@bosai_wcrea](https://twitter.com/bosai_wcrea){:target="_blank"}
 
