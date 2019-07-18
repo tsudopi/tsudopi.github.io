@@ -1,0 +1,20 @@
+---
+bg: "home.jpg"
+layout: default
+crawlertitle: "防災のつどぴ"
+title: "防災のつどぴ"
+summary: "main page"
+---
+
+<h3>防災のつどぴホームページです</h3>
+
+
+
+
+<h5>最新記事↓</h5>
+{% for post in site.posts limit: 3 %}
+  <article class="index-page">
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  {{ post.excerpt }}
+  </article>
+{% endfor %}
