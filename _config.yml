@@ -1,8 +1,8 @@
 # Site settings
 title: 防災のつどぴ
 description: 和歌山で防災を考える
-cover: assets/images/cover.jpg
-logo: assets/images/logo.png
+cover: /assets/images/cover.jpg
+logo: /assets/images/logo.png
 favicon: 
 baseurl: "" # the subpath of your site, e.g. /blog/ or / for root
 url: # the base hostname & protocol for your site
@@ -24,9 +24,9 @@ instagram: bosai.wcrea
 github:  
 
 #Additional Pages
-about: about
-contact: contact
-post: post
+about: /about
+contact: /contact
+post: /post
 
 
 permalink: /:title
