@@ -34,6 +34,18 @@
   </nav>
 
 
+  <ul class="ampstart-sidebar-faq list-reset m0">
+     <!--homeページをサイドバーへ-->
+    <li class="ampstart-faq-item"><a href="https://tsudopi.github.io" class="text-decoration-none">Home</a></li>
+    {% endif %}
+
+    {% if site.about %} <!--aboutページをサイドバーへ-->
+    <li class="ampstart-faq-item"><a href="{{ site.baseurl }}{{ site.about }}"
+        class="text-decoration-none">About</a></li>
+    {% endif %}
+
+  </ul>
+
   <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
     {% if site.twitter %}
     <li>
