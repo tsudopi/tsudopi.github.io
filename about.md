@@ -1,16 +1,15 @@
 ---
-bg: "about.jpg"
 layout: page
-title: "About"
-crawlertitle: "About"
+title: About
 permalink: /about/
-summary: "About this page"
-active: about
 ---
-和歌山大学クリエのプロジェクト”防災のつどぴ”ホームページです。
 
-過去にやったことや現在やっていることなど、情報発信していきます。
+<amp-img width="600" height="300" layout="responsive" src="{{ site.baseurl }}{{ site.cover }}"></amp-img>
 
-Twitter： [@bosai_wcrea](https://twitter.com/bosai_wcrea){:target="_blank"}
+防災のつどぴ
 
-Facebook : [bosai_wcrea](https://www.facebook.com/bosai.wcrea){:target="_blank"}
+
+
+沿革
+
+２０１８年４月　設立

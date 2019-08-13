@@ -1,44 +1,67 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: 防災のつどぴ
-email: bosai.wcrea@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: 和歌山で防災を考える
+cover: assets/images/cover.jpg
+logo: assets/images/logo.png
+favicon: 
+baseurl: "https://tsudopi.github.io" # the subpath of your site, e.g. /blog/ or / for root
+url: # the base hostname & protocol for your site
 
-baseurl: "" # the subpath of your site, e.g. /blog
-lang: "en"
-url: "" # the base hostname & protocol for your site
-twitter_username: bosai_wcrea
-github_username:
-disqus_username:
+pagination:
+
+  # Site-wide kill switch, disabled here it doesn't run at all 
+  enabled: true
+
+  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
+  debug: false
+
+  per_page: 5
+
+# Social
+facebook: bosai.wcrea
+twitter: bosai_wcrea
+instagram: bosai.wcrea
+github:  
+
+#Additional Pages
+about: about
+contact: contact
+post: post
+
+
+permalink: /:title
+
+
+# Google Analytics
+analytics_id: ""
 
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title/
 
-# Posts settings
-future: true
-safe: false
-lsi: false
-excerpt_separator: "\n\n"
+kramdown:
+  parse_block_html: true
 
-# Theme settings
-compress_html:
-  comments: ["<!-- ", " -->"]
-  clippings: all
-  endings: all
+plugins:
+  - jekyll-paginate-v2
 
 
-sass:
-  sass_dir: assets/_sass
-  style: compressed
+# Settings for rake task
+safe: False
+lsi: False
+username: samanyougarg #github username
+repo: hanuman #github repository
+branch: master #branch
+relative_source: ../hanuman/ #source directory
+destination: ../hanuman-pages/ #destination directory
+production_url:  https://samanyougarg.com/
+source_url:  https://github.com/samanyougarg/hanuman #source repository url
 
-
-images: '{{site.baseurl}}/assets/images'
-
-excerpt_separator: <!--more-->
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
