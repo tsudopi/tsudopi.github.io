@@ -4,7 +4,7 @@ description: 和歌山で防災を考える
 cover: assets/images/cover.jpg
 logo: assets/images/logo.png
 favicon: 
-baseurl: "https://tsudopi.github.io/" # the subpath of your site, e.g. /blog/ or / for root
+baseurl: "" # the subpath of your site, e.g. /blog/ or / for root
 url: # the base hostname & protocol for your site
 
 pagination:
