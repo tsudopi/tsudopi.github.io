@@ -66,4 +66,4 @@ exclude:
   - vendor
   - .travis.yml
 
-  excerpt_separator: <!--more-->
+excerpt_separator: <!--more-->
