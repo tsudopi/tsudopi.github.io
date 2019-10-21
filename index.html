@@ -88,7 +88,7 @@ pagination:
   </nav>
 
 {% for post in site.posts limit: 3 %}
-  記事を最大三件表示させます。limit以降の数字を変更すると件数変更可
+  <!-- 記事を最大三件表示させます。limit以降の数字を変更すると件数変更可-->
   <article class="index-page">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
   {{ post.excerpt }}
