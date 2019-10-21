@@ -8,7 +8,7 @@ permalink: /post/
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
-  <h2 class="category-key" id="{{ t | downcase }}">{{ t | capitalize }}</h2>
+  <h4 class="category-key" id="{{ t | downcase }}">{{ t | capitalize }}</h4>
 
   <ul class="year">
     {% for post in posts %}
@@ -16,7 +16,7 @@ permalink: /post/
         <li>
           {% if post.lastmod %}
             <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
-            <span class="date">{{ post.lastmod | date: "%d-%m-%Y"  }}</span>
+            <span class="date">{{ post.lastmod | date: "%Y-%m-%d"  }}</span>
           {% else %}
             <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
             <span class="date">{{ post.date | date: "%d-%m-%Y"  }}</span>

@@ -3,3 +3,10 @@
 
 謎の文字化け対応：styleの52行目のところを消す
 http://ishi-note.com/891.html
+
+メアドクリックでメールソフト起動：<a href="mailto:example@example.com">example@example.com</a>
+mailtoが重要
+迷惑メール対策として、[@]を[&#64;]に置き換えると、見た目上は@が表示されるが、コードでは文字なので迷惑メールが来にくい
+
+リンクを別タブで開く：[](){:target="_blank"}
+{}の部分を追加
