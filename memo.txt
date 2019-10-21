@@ -1,0 +1,5 @@
+フォント変更：include/style.scss/ font-serif
+テーマカラー変更：include/style.scss/ theme color
+
+謎の文字化け対応：styleの52行目のところを消す
+http://ishi-note.com/891.html
