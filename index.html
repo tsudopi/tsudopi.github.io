@@ -3,7 +3,8 @@ layout: default
 pagination: 
   enabled: true
 ---
-
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v4.0"></script>
 
   <figure class="ampstart-image-fullpage-hero m0 relative mb4">
     <amp-img width="404" height="720" alt="Cover" layout="responsive" src="{{ site.baseurl }}{{ site.cover }}" media="(max-width: 415px)"></amp-img>
@@ -87,24 +88,21 @@ pagination:
     {% endif %}
   </nav>
 
-{% for post in site.posts limit: 3 %}
-  <!-- 記事を最大三件表示させます。limit以降の数字を変更すると件数変更可-->
+{% for post in site.posts limit: 3 %}<!-- 記事を最大三件表示させます。limit以降の数字を変更すると件数変更可-->
   <article class="index-page">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
   {{ post.excerpt }}
   </article>
 　{% endfor %}
 
-<!--twitter表示機構-->
-<div style="float:left"><a class="twitter-timeline" data-width="450" data-height="700" href="https://twitter.com/bosai_wcrea?ref_src=twsrc%5Etfw">Tweets by bosai_wcrea</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-<!--facebookタイムライン表示機構-->
-<div style="float:right"><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbosai.wcrea%2F&tabs=timeline&width=450&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="450" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></div>
+<!--twitter,facebook表示機構-->
+<span style="text-align: left;"><a class="twitter-timeline" data-width="450" data-height="700" href="https://twitter.com/bosai_wcrea?ref_src=twsrc%5Etfw">Tweets by bosai_wcrea</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></span>
+<span style="text-align: right;"><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbosai.wcrea%2F&tabs=timeline&width=350&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></span>
 
+<div style="margin-bottom:200px"></div>
 
 </main>
 
-<br/><!--空行がないとフッターが左端によっちゃう-->
 
-<br/>
 
 {% include footer.html %}
