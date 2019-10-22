@@ -3,8 +3,7 @@ layout: default
 pagination: 
   enabled: true
 ---
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v4.0"></script>
+
 
   <figure class="ampstart-image-fullpage-hero m0 relative mb4">
     <amp-img width="404" height="720" alt="Cover" layout="responsive" src="{{ site.baseurl }}{{ site.cover }}" media="(max-width: 415px)"></amp-img>
@@ -12,7 +11,7 @@ pagination:
     <figcaption class="absolute top-0 right-0 bottom-0 left-0">
       <header class="p3">
         <h1 class="ampstart-fullpage-hero-heading mb0 hanuman">
-          <span class="ampstart-fullpage-hero-heading-text title">
+          <span style="max-width: 100%;" class="ampstart-fullpage-hero-heading-text title">
             {{ site.title }}
           </span>
         </h1>
