@@ -21,6 +21,6 @@ author: t.f
 
 詳しくは以下のリンクより、チラシをご覧ください
 
-<a href="/assets/documents/防災講演会開催のお知らせ.pdf/">防災講演会開催のお知らせ（PDFファイル、690kb）</a>
+<a href="/assets/documents/防災講演会開催のお知らせ.pdf"target="_blank”>防災講演会開催のお知らせ（PDFファイル、690kb）</a>
 
-[防災講演会のお知らせ]](/assets/images/3/防災講演会開催のお知らせ.jpg/)
+[防災講演会のお知らせ](/assets/images/3/防災講演会開催のお知らせ.jpg/)
