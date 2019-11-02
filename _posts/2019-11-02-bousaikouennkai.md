@@ -20,7 +20,7 @@ author: t.f
 |共催|和歌山県立医科大学「Wakayama Will」               |
 |協力|小坂区|
 |後援|色川地区防災組織 <br> 和歌山大学災害科学教育研究センター|
-|問い合わせ先|和歌山大学「防災のつどぴ」(bousai.wcrea@gmail.com)|
+|問い合わせ先|和歌山大学「防災のつどぴ」<br> E-Mail: bousai.wcrea@gmail.com|
 
 ※入場無料・申込不要となっております。
 
