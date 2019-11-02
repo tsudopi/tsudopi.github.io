@@ -28,4 +28,4 @@ author: t.f
 
 <a href="/assets/documents/防災講演会開催のお知らせ.pdf" target="_blank”>防災講演会開催のお知らせ（PDFファイル、690kb）</a>
 
-[防災講演会のお知らせ](/assets/images/3/防災講演会開催のお知らせ.jpg/)
+![防災講演会のお知らせ](/assets/images/3/防災講演会開催のお知らせ.jpg)
