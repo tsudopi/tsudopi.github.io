@@ -67,3 +67,6 @@ exclude:
   - .travis.yml
 
 excerpt_separator: <!--more-->
+
+gems: 
+  - jekyll-feed
