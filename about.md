@@ -4,7 +4,7 @@ title:
 permalink: /about/
 ---
 
-<div style="margin-bottom:200px"></div>
+<div style="margin-bottom:150px"></div>
 
 <div style="text-align: center;">
 ここ紀伊半島は自然の美しい表情を私たちに見せてくれる場所
