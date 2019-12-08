@@ -36,5 +36,5 @@ author: Y.U
 
 関連リンク
 
-SDGsとは｜外務省（<a href=" https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/about/index.html" {:target="_blank" }>https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/about/index.html)</a>）
+SDGsとは｜外務省（<a href=" https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/about/index.html"{:target="_blank" }>https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/about/index.html</a>）
 
