@@ -24,11 +24,11 @@ author: Y.U
 
 誘っていただいた滋賀県立大学"田ノ浦ファンクラブ学生サポートチーム([@Tanoura_sST](https://twitter.com/tanoura_sst))"の長島さんとメンバーの方、"名古屋大学防災サークル～轍～([@NU_Wadachi2019](https://twitter.com/NU_Wadachi2019))"の方々、その他交流してくださった方々、ありがとうございました。
 
-![発表のようす](/assets/images/4/4-1.jpg)
+![発表のようす](/assets/images/4/4-1.jpg){:target="_blank" }
 
 ↑発表の様子
 
-![集合写真](/assets/images/4/4-2.jpg)
+![集合写真](/assets/images/4/4-2.jpg){target="_blank"}
 
 ↑ワークショップに参加した方と集合写真
 
@@ -36,5 +36,5 @@ author: Y.U
 
 関連リンク
 
-SDGsとは｜外務省（ https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/about/index.html ）
+SDGsとは｜外務省（![ https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/about/index.html](https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/about/index.html) ）
 
