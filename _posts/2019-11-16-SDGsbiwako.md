@@ -22,7 +22,11 @@ author: Y.U
 
 今回こういうイベントに参加したことで、自団体以外の方との交流の大切さを知れたのかなあと思います。今後も交流の機会があれば、積極的に参加していきたいですね！
 
-誘っていただいた滋賀県立大学"田ノ浦ファンクラブ学生サポートチーム(<a href="https://twitter.com/tanoura_sst" {:target="_blank" }>@Tanoura_sST</a>"の長島さんとメンバーの方、"名古屋大学防災サークル～轍～(<a href="https://twitter.com/NU_Wadachi2019" {:target="_blank" }>@NU_Wadachi2019</a>の方々、その他交流してくださった方々、ありがとうございました。
+誘っていただいた滋賀県立大学"田ノ浦ファンクラブ学生サポートチーム(
+    <a href="https://twitter.com/tanoura_sst" target="_blank" >@Tanoura_sST</a>
+    )"の長島さんとメンバーの方、"名古屋大学防災サークル～轍～(
+        <a href="https://twitter.com/NU_Wadachi2019" target="_blank" >@NU_Wadachi2019</a>
+    )"の方々、その他交流してくださった方々、ありがとうございました。
 
 ![発表のようす](/assets/images/4/4-1.jpg)
 
@@ -36,5 +40,5 @@ author: Y.U
 
 関連リンク
 
-SDGsとは｜外務省（<a href="https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/about/index.html"{:target="_blank" }>https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/about/index.html</a>）
+SDGsとは｜外務省（<a href="https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/about/index.html" target="_blank" >https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/about/index.html</a>）
 
