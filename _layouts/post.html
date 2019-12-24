@@ -60,7 +60,8 @@ layout: default
                         {% endfor %}
           </span>
           {% endif %}
-          <h1 class="mb1 px3">{{page.title}}</h1>
+          <h2 class="mb1 px3">{{page.title}}</h2>
+          <!--この上が、post画面のタイトル表示。h1だと大きすぎたので...-->
 
           <address class="ampstart-byline clearfix mb4 px3 h5">
             <time class="ampstart-byline-pubdate block bold my1" datetime="{{ page.date | date:'%e %B %Y' }}">{{ page.date | date:'%e %B %Y' }}</time>

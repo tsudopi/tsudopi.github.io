@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 防災講演会開催のお知らせ
+title: （※終了しました）防災講演会開催のお知らせ
 date: 2019-11-02 16:00:00
 tags: お知らせ
 author: t.f
