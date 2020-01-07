@@ -20,6 +20,7 @@ permalink: /post/
           {% else %}
             <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
             <span class="date">{{ post.date | date: "%d-%m-%Y"  }}</span>
+            <span class="author">{{post.author}}</span>
           {% endif %}
         </li>
       {% endif %}
