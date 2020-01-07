@@ -17,6 +17,7 @@ permalink: /post/
           {% if post.lastmod %}
             <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
             <span class="date">{{ post.lastmod | date: "%Y-%m-%d"  }}</span>
+            <span class="author">{{post.author}}</span>
           {% else %}
             <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
             <span class="date">{{ post.date | date: "%d-%m-%Y"  }}</span>
