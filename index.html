@@ -87,6 +87,22 @@ pagination:
     {% endif %}
   </nav>-->
 
+<div class="index-page">
+<h2>＜2022年度 和歌山大学 新入生の方々へ＞</h2>
+<p>新入生募集中です。私たちと一緒に災害から命を守る活動をしませんか？過去の活動は<a href="{{site.baseurl}}{{site.post}}">こちら</a>をご覧ください。</p>
+<p>新歓情報は公式LINEとTwitter、Discordで発信していきます。</p>
+<p>質問は公式LINEと Twitter、Discord、メールにて受け付けています。</p>
+
+<ul>
+  <li>公式LINE (<a href="https://lin.ee/X3dTGx4">https://lin.ee/X3dTGx4</a>)</li>
+  <li>Twitter（<a href="https://twitter.com/bosai_wcrea">https://twitter.com/bosai_wcrea</a>）</li>
+  <li>Instagram（<a href="https://www.instagram.com/bosai.wcrea/?hl=ja">https://www.instagram.com/bosai.wcrea/?hl=ja</a>）</li> 
+  <li>メールアドレス（bosai.wcrea&#64;gmail.com）</li>
+</ul>
+</div>
+
+<div style="margin-bottom:100px"></div>
+
 {% for post in site.posts limit: 3 %}<!-- 記事を最大三件表示させます。limit以降の数字を変更すると件数変更可-->
   <article class="index-page">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
