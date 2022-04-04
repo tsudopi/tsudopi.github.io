@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-09-08 15:30:00
+date: 2020-09-08 15:30:00 +0900
 title: 海南市防災訓練
 tags : 活動履歴
 author: K.O

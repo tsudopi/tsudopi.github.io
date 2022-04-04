@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 確定新歓
-date: 2019-06-12 16:00:00
+date: 2019-06-12 16:00:00 +0900
 tags: 活動履歴
 author: n
 ---

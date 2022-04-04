@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2019-11-16 22:00:00
+date: 2019-11-16 22:00:00 +0900
 title: キャンパスSDGsびわ湖大会に参加しました
 tags : 活動履歴
 author: Y.U
